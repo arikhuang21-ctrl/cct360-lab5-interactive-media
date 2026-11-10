@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 32px 16px;
+  color: #24313d;
+  background: #f1f3f4;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  width: min(680px, 100%);
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+header p:first-child,
+.number {
+  color: #66737d;
+  font-size: 0.8rem;
+}
+
+h1 {
+  margin: 6px 0;
+  font-size: 2.3rem;
+}
+
+header p {
+  margin: 0;
+}
+
+.sound-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #cbd2d7;
+  border-radius: 6px;
+}
+
+.sound-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  display: block;
+  object-fit: cover;
+  background: #e8ecef;
+}
+
+.sound-info {
+  padding: 28px;
+}
+
+.number {
+  margin: 0 0 4px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 1.7rem;
+}
+
+#sound-description {
+  min-height: 48px;
+  margin: 0 0 24px;
+  color: #4f5c66;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#play-button {
+  padding: 9px 14px;
+  border: 1px solid #315f82;
+  border-radius: 4px;
+  background: #315f82;
+  color: white;
+}
+
+#play-button:hover,
+#play-button[aria-pressed="true"] {
+  background: #234760;
+}
+
+.status {
+  margin: 12px 0 22px;
+  color: #66737d;
+  font-size: 0.85rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.85rem;
+}
+
+#volume {
+  width: 100%;
+  accent-color: #315f82;
+}
+
+.sound-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.sound-choice {
+  padding: 11px 8px;
+  border: 1px solid #aeb8bf;
+  border-radius: 4px;
+  background: white;
+  color: #33424d;
+}
+
+.sound-choice:hover,
+.sound-choice.active {
+  border-color: #315f82;
+  background: #e3edf4;
+}
+
+:focus-visible {
+  outline: 3px solid #d28b27;
+  outline-offset: 2px;
+}
+
+@media (max-width: 560px) {
+  .sound-card {
+    grid-template-columns: 1fr;
+  }
+
+  .sound-card img {
+    min-height: 240px;
+  }
+
+  .sound-list {
+    grid-template-columns: 1fr;
+  }
+}
