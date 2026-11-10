@@ -2,23 +2,23 @@ const sounds = [
   {
     name: "Pencil",
     description: "A pencil moving across a sheet of paper.",
-    image: "images/pencil.svg",
+    image: "pencil.svg",
     alt: "A pencil drawing a line on paper",
-    audio: "audio/pencil.wav"
+    audio: "pencil.wav"
   },
   {
     name: "Keyboard",
     description: "A few keys being pressed while I type.",
-    image: "images/keyboard.svg",
+    image: "keyboard.svg",
     alt: "A small computer keyboard",
-    audio: "audio/keyboard.wav"
+    audio: "keyboard.wav"
   },
   {
     name: "Mug",
     description: "A ceramic mug placed back on the desk.",
-    image: "images/mug.svg",
+    image: "mug.svg",
     alt: "A mug sitting on a desk",
-    audio: "audio/mug.wav"
+    audio: "mug.wav"
   }
 ];
 
