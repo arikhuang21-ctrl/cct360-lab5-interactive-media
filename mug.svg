@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Mug</title>
+  <desc id="desc">A mug sitting on a desk.</desc>
+  <rect width="500" height="500" fill="#e7ecef"/>
+  <rect y="330" width="500" height="170" fill="#d6c4ae"/>
+  <ellipse cx="235" cy="348" rx="135" ry="24" fill="#8f7f70" opacity=".24"/>
+  <path d="M151 159H326V338C326 367 301 387 270 387H207C176 387 151 367 151 338Z" fill="#87a9b9" stroke="#607e8c" stroke-width="4"/>
+  <ellipse cx="238" cy="159" rx="87" ry="23" fill="#b9d0d9" stroke="#607e8c" stroke-width="4"/>
+  <ellipse cx="238" cy="160" rx="70" ry="14" fill="#6b4b38"/>
+  <path d="M326 213H353C391 213 404 240 404 273 404 307 384 330 348 330H326" fill="none" stroke="#607e8c" stroke-width="22"/>
+  <g fill="none" stroke="#b7c0c6" stroke-width="5" stroke-linecap="round">
+    <path d="M205 123C181 92 220 75 202 47"/><path d="M258 123C234 92 273 75 255 47"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Keyboard</title>
+  <desc id="desc">A small computer keyboard.</desc>
+  <rect width="500" height="500" fill="#e7ecef"/>
+  <rect x="62" y="145" width="376" height="210" rx="16" fill="#f8f9fa" stroke="#9ca8b0" stroke-width="4"/>
+  <g fill="#d7dde1" stroke="#a7b1b8" stroke-width="2">
+    <rect x="88" y="174" width="43" height="35" rx="4"/><rect x="142" y="174" width="43" height="35" rx="4"/><rect x="196" y="174" width="43" height="35" rx="4"/><rect x="250" y="174" width="43" height="35" rx="4"/><rect x="304" y="174" width="43" height="35" rx="4"/><rect x="358" y="174" width="43" height="35" rx="4"/>
+    <rect x="88" y="220" width="52" height="35" rx="4"/><rect x="151" y="220" width="43" height="35" rx="4"/><rect x="205" y="220" width="43" height="35" rx="4"/><rect x="259" y="220" width="43" height="35" rx="4"/><rect x="313" y="220" width="43" height="35" rx="4"/><rect x="367" y="220" width="34" height="35" rx="4"/>
+    <rect x="88" y="266" width="64" height="35" rx="4"/><rect x="163" y="266" width="43" height="35" rx="4"/><rect x="217" y="266" width="43" height="35" rx="4"/><rect x="271" y="266" width="43" height="35" rx="4"/><rect x="325" y="266" width="76" height="35" rx="4"/>
+    <rect x="145" y="312" width="210" height="24" rx="4"/>
+  </g>
+</svg>
